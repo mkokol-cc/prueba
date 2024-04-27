@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+    
+    prueba:
+        container_name: prueba
+        build: .
+        ports:
+         - 4201:4200
+        expose:
+         - 4200
